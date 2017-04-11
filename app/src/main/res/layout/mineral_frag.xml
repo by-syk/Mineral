@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/background_title"
+        android:elevation="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <TextView
+            android:textSize="20sp"
+            android:text="非均质体"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="15sp"
+            android:gravity="bottom|end"
+            android:text="@string/first_page_des"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <LinearLayout
+            android:layout_margin="15dp"
+            android:background="@drawable/background_title"
+            android:elevation="5dp"
+            android:id="@+id/ll_one"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_margin="15dp"
+                android:text="一轴晶"
+                android:gravity="center_horizontal"
+                android:textSize="25sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="15dp"
+            android:background="@drawable/background_title"
+            android:elevation="5dp"
+            android:id="@+id/ll_two"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_margin="15dp"
+                android:gravity="center_horizontal"
+                android:text="二轴晶"
+                android:textSize="25sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_Learning"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="15dp"
+        android:background="@drawable/background_title"
+        android:elevation="3dp">
+
+        <TextView
+            android:layout_margin="15dp"
+            android:gravity="center_horizontal"
+            android:text="学习"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

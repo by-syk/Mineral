@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version='1.1' width='390px' height='387px' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+	<g transform="translate(-80.95,-14.35)">
+		<path d="M 281 15.35 Q 281 33.65 281 52 Q 281 71.5 281 91 Q 281 110.5 281 130 Q 281 149.5 281 169 Q 281 188 281 208 Q 289.5 208 298 208 Q 317.5 208 337 208 Q 356.5 208 376 208 Q 395.5 208 415 208 Q 434.5 208 454 208 Q 461.55 208 469.1 208 M 81.95 208 Q 92.45 208 103 208 Q 122.5 208 142 208 Q 161.5 208 181 208 Q 200.5 208 220 208 Q 239.5 208 259 208 Q 270 208 281 208 M 281 399.925 Q 281 381.433 281 362.95 Q 281 343.95 281 324.95 Q 281 305.45 281 285.95 Q 281 265.95 281 246 Q 281 226.5 281 208" fill="none" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="#000000"/>
+	</g>
+</svg>

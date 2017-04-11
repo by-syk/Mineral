@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mineral</string>
+    <string name="title_uniaxial_crystal">一轴</string>
+    <string name="title_biaxial_crystal">二轴</string>
+    <string name="title_Unnameed">锦囊妙计</string>
+    <string name="filter1">垂直光轴</string>
+    <string name="filter2">斜交光轴</string>
+    <string name="filter3">平行光轴面</string>
+    <string name="first_page_des">光学性质随方向的给吧二变化的矿物非均质体</string>
+    <string name="Right">正光性</string>
+    <string name="back">负光性</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.y1247.mineral.second.SecondActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_intro"
+        android:padding="15dp"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_margin="5dp"
+            android:background="@drawable/background_title"
+            android:id="@+id/bt_right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:elevation="15dp"
+            android:layout_weight="1"
+            android:text="@string/Right" />
+
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/bt_back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/background_title"
+            android:elevation="15dp"
+            android:text="@string/back" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
